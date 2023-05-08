@@ -206,69 +206,6 @@ plt.show()
 
 ```
 ## OUTPUT
-## Data Preprocessing before Feature Selection:
-
-
-## Initial Dataset:
-
-![GITHUB](o1.png)
-
-## Data checking and cleaning:
-
-
-![GITHUB](o2.png)
-
-![GITHUB](o3.png)
-
-## Outlier Removal:
-
-![GITHUB](o4.png)
-
-![GITHUB](o5.png)
-## Feature Enoding:
-
-![GITHUB](o6.png)
-
-## Feature Scaling:
-
-
-![GITHUB](o7.png)
-## Feature Transformations:
-
-![GITHUB](o8.png)
-
-![GITHUB](o9.png)
-## Feature Selection
-![GITHUB](o10.png)
-## Filter Method
-The filtering here is done using correlation matrix and it is most commonly done using Pearson correlation. 
-
-Highly correlated features with the Output variable Survived:
-![GITHUB](o11.png)
-
-
-## Wrapper Method:
-Wrapper Method is an iterative and computationally expensive process but it is more accurate than the filter method.
-
-There are different wrapper methods such as Backward Elimination, Forward Selection, Bidirectional Elimination and RFE.
-![GITHUB](o12.png)
-## Backward Elimination:
-![GITHUB](o13.png)
-
-
-
-## RFE (Recursive Feature Elimination):
-![GITHUB](o14.png)
-
-## Optimum number of features that have high accuracy:
-![GITHUB](o15.png)
-
-## Final set of feature:
-
-![GITHUB](o16.png)
-## Embedded Method:
-Embedded methods are iterative in a sense that takes care of each iteration of the model training process and carefully extract those features which contribute the most to the training for a particular iteration. Regularization methods are the most commonly used embedded methods which penalize a feature given a coefficient threshold. 
-![GITHUB](o17.png)
 
 ## RESULT:
 Thus, the various feature selection techniques have been performed on a given dataset successfully.
